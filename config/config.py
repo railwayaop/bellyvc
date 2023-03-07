@@ -33,7 +33,7 @@ if MONGO_DB_URI == "":
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "180")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -45,7 +45,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","SiestaXMusic")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","bellyXmusic")
 
 # Your User ID.
 OWNER_ID = list(
@@ -159,51 +159,51 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e17f42bc195635b668d6d.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/8eb3466b2e2fc39263665.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://telegra.ph/file/56d1760224589ee370186.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "https://te.legra.ph/file/1296994c1a55dde6323b2.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "https://te.legra.ph/file/88e0c7be525de0d93854e.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://te.legra.ph/file/88e0c7be525de0d93854e.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "assets/Audio.jpeg",
+    "https://te.legra.ph/file/d4e79e1719a07e53da4fe.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "assets/Video.jpeg",
+    "https://te.legra.ph/file/d4e79e1719a07e53da4fe.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "assets/Stream.jpeg",
+    "https://te.legra.ph/file/5f9ae00cde0806a969197.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "assets/Soundcloud.jpeg",
+    "https://te.legra.ph/file/5f9ae00cde0806a969197.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "assets/Youtube.jpeg",
+    "https://te.legra.ph/file/5f9ae00cde0806a969197.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
