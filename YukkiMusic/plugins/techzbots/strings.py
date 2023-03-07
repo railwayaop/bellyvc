@@ -7,7 +7,7 @@ START_TEXT = f"""
 ✨ **ʜᴇʏᴀ MENTION !**
 ** ━━━━━━━━━━━━━━━
 ʜᴇʏ,
-メᴛʜɪꜱ ɪꜱ [ɞєʟʟʏ](https://t.me/sumitxop)
+メᴛʜɪꜱ ɪꜱ [ɞєʟʟʏ](https://t.me/ab_sumit)
 ◉‿◉ᴀ ꜱᴜᴘᴇʀ ꜰᴀꜱᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ᴍᴀᴅᴇ ᴛᴏ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ᴀɴᴅ ʟɪғᴇ
 ᴍʏ ꜰᴇᴀᴛᴜʀᴇꜱ ᴀʀᴇ :
 ●ᴠɪᴅᴇᴏ ꜱᴛʀᴇᴀᴍ
@@ -42,7 +42,7 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
                 text="❄️ᴄʜᴀɴɴᴇʟ❄️", url="https://t.me/ab_sumit"
             ),
             InlineKeyboardButton(
-                text="❄️sᴜᴘᴘᴏʀᴛ❄️", url="https://t.me/bellysupportchat"
+                text="❄️sᴜᴘᴘᴏʀᴛ❄️", url="https://t.me/twinkleXstars"
             ),                       
         ],        
     ]
@@ -64,7 +64,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
                 text="❄️ᴄʜᴀɴɴᴇʟ❄️", url="https://t.me/ab_sumit"
             ),
             InlineKeyboardButton(
-                text="❄️sᴜᴘᴘᴏʀᴛ❄️", url="https://t.me/bellysupportchat"
+                text="❄️sᴜᴘᴘᴏʀᴛ❄️", url="https://t.me/twinkleXstars"
             ),                       
         ],        
     ]
@@ -146,7 +146,7 @@ BACK_BUTTON = InlineKeyboardMarkup(
 SUDO_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="☄️sᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅs☄️", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
+                text="☄️sᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅs☄️", url="https://t.me/twinkleXstars"
             ),                        
         ],
         [
