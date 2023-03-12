@@ -170,8 +170,8 @@ async def generate_thumb(videoid,bot_name):
             os.remove(f"cache/thumb{videoid}.jpg")
         except:
             pass
-        background.save(f"cache/{videoid}_{user_id}.png")
-        return f"cache/{videoid}_{user_id}.png"
+        background.save(f"cache/{videoid}.jpg")
+        return f"cache/{videoid}.jpg"
     except Exception as e:
         print(e)
         return YOUTUBE_IMG_URL
